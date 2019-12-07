@@ -1,0 +1,67 @@
+
+/*===========   Template page css   =================*/
+
+.main_container{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgb(0,0,255);
+    z-index: 10;
+}
+
+.top_row{
+    height: 15%;
+}
+
+.mid_row{
+    height: 80%;
+}
+
+.bottom_row{
+    height: 5%;
+}
+
+.title_container{
+    background: orange;
+    width: 10%;
+}
+
+.image_container{
+    background: #8f5400;
+    width: 90%;
+}
+
+.time_table_container{
+    background: #8f100d;
+}
+
+.ingredients_container{
+    background: #88148f;
+}
+
+.equipment_container{
+    background: #8f8b67;
+    height: auto;
+}
+
+.instructions_container{
+    background: aqua;
+}
+
+.footer_container{
+    background: #0c8f43;
+}
+
+.index_button_container{
+    padding-top:20px;
+}
+
+
+/* ID's of elements that will be replaced during page navigation */
+
+/* End of ID elements */
+
+
+/*===========    End of Template Page CSS    ================*/
