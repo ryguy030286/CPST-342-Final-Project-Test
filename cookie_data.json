@@ -2,7 +2,7 @@
   "chocolate_chip_cookies": [
   {
     "id": 1,
-    "title": "Chocolate Chip Cookies",
+    "recipe_name": "Chocolate Chip Cookies",
     "finished_product_image_link": "Chocolate Chttps://www.fifteenspatulas.com/wp-content/uploads/2010/12/Chocolate-Chip-Cookie-Recipe-Fifteen-Spatulas-4-640x959.jpghip",
     "rating": "*",
     "comments": "*",
@@ -17,7 +17,7 @@
   "sugar_cookies":[
   {
   "id": 2,
-  "title": "Sugar Cookies",
+  "recipe_name": "Sugar Cookies",
   "finished_product_image_link": "https://i0.wp.com/www.livewellbakeoften.com/wp-content/uploads/2017/11/Cut-out-Sugar-Cookies-with-Cream-Cheese-Frosting-3.jpg?resize=1360%2C2040&ssl=1",
   "rating": "*",
   "comments": "*",
@@ -32,7 +32,7 @@
   "chocolate_mudslide_cookies":[
   {
   "id": 3,
-  "title": "Flourless Chocolate Mudslide Cookies",
+  "recipe_name": "Flourless Chocolate Mudslide Cookies",
   "finished_product_image_link": "https://mygluten-freekitchen.com/wp-content/uploads/2018/10/Bowl-of-gluten-free-mudslide-flourless-chocolate-cookies.jpg",
   "rating": "*",
   "comments": "*",

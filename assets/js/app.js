@@ -15,9 +15,6 @@ function index_page() {
 // Loads value of pressed button.
 let page_name = localStorage.getItem('page');
 
-// Set HTML tag to value passed by button press.
-document.getElementById("title_text").innerHTML = page_name;
-
 
 //Loads JSON file using npm json server
 //Instructions were found here https://www.npmjs.com/package/json-server
@@ -26,6 +23,13 @@ fetch("./cookie_data.json")
         return resp.json();
     })
     .then(function(data) {
-       console.log(data.chocolate_chip_cookies[0].time_table);  // "21 minutes"
-       document.getElementById("instructions_text").innerHTML = data.chocolate_chip_cookies[0].instructions;
+        console.log(data[page_name][0].time_table);  // "21 minutes"//
+        console.log(data[page_name][0].instructions);
+        console.log(data[page_name][0].ingredients);
+        console.log(data[page_name][0].needed_equipment);
+        document.getElementById("title_text").innerHTML = data[page_name][0].recipe_name;
+        document.getElementById("instructions_text").innerHTML = data[page_name][0].instructions;
+        document.getElementById("ingredients_text").innerHTML = data[page_name][0].ingredients;
+        document.getElementById("equipment_text").innerHTML = data[page_name][0].needed_equipment;
+        document.getElementById("time_table_text").innerHTML = data[page_name][0].time_table;
     });
