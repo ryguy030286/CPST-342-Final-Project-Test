@@ -13,17 +13,19 @@ function index_page() {
     }
 
 // Loads value of pressed button.
-    let key = localStorage.getItem('page');
+let page_name = localStorage.getItem('page');
 
 // Set HTML tag to value passed by button press.
-    document.getElementById("title_text").innerHTML = key;
+document.getElementById("title_text").innerHTML = page_name;
 
 
-//Test to load local JSON
+//Loads JSON file using npm json server
+//Instructions were found here https://www.npmjs.com/package/json-server
 fetch("./cookie_data.json")
     .then(function(resp){
         return resp.json();
     })
     .then(function(data) {
-       console.log(data);
+       console.log(data.chocolate_chip_cookies[0].time_table);  // "21 minutes"
+       document.getElementById("instructions_text").innerHTML = data.chocolate_chip_cookies[0].instructions;
     });
