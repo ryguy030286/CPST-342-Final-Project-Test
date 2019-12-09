@@ -42,5 +42,95 @@
   "instructions": ["Preheat oven to 3500." , "Line two cookie sheets with parchment paper.", "Spray top of parchment paper with nonstick cooking spray (otherwise these cookies really stick!)", "To the bowl of your mixer, add the powdered sugar, cocoa powder, and salt.", "Mix together on low speed until mixed together well. (If you have a whisk attachment for your mixer, use that.)", "Add the egg whites and pure vanilla extract and mix on low until mixed. Batter will be very thick when done!", "Remove bowl from mixer.", "Using a spatula, stir in the mini semi-sweet chips and the dark chocolate chips.", "Use a medium cookie scoop (#40) to scoop out wet dough mounds onto your sprayed parchment sheets, leaving plenty of room for them to spread during baking.", "On my large cookie sheet, I did 12, and then 6 on the other cookie sheet.", "You could do 8 per batch too if your sheet is smaller.", "I prefer to bake one sheet at a time for even baking.", "If you need to use the same cookie sheet twice, be sure to let it cool between batches.", "Bake in 3500 oven for 12 minutes, or until glossy and cracked and edges are set. They will firm up as they cool too.", "Remove from oven and let sit on the pan for 2-3 minutes. Slide parchment paper onto cooling rack for cookies to continue to cool. Enjoy!"],
   "allergies": "*",
   "original_link": "https://mygluten-freekitchen.com/flourless-chocolate-mudslide-cookies-gluten-free-dairy-free/"
-  }]
+  }],
+
+  "chewy_oatmeal_cookies":[
+    {
+    "id": 4,
+    "recipe_name": "Chewy Oatmeal Cookies",
+    "finished_product_image_link": "https://www.joyofbaking.com/images/facebook/oatmealcookies.jpg",
+    "rating": "*",
+    "comments": "*",
+    "time_table": "25 Minutes",
+    "needed_equipment": ["large bowl", "baking sheets", "baking pan", "egg beater"],
+    "ingredients": ["1 cup of softened butter","1 cup sugar","n1 cup packed brown sugar","2 large eggs","n1 tablespoon molasses","n2 teaspoons vanilla extract","2 cups all-purpose flour","2 cups quick-cooking oats","1-1/2 teaspoons baking soda","1 teaspoon ground cinnamon","1/2 teaspoon salt","1 cup each raisins and chopped pecans","1 cup (6 ounces) semisweet", "chocolate chips"],
+    "instructions": ["In a large bowl, cream butter and sugars until light and fluffy. Add the eggs, molasses and vanilla; beat well.", "Combine the flour, oats, baking soda, cinnamon and salt; gradually add to creamed mixture and mix well. Stir in the raisins, pecans and chocolate chips. Drop by tablespoonfuls 2 in. apart onto greased baking sheets.","Bake at 350 degrees for 9-10 minutes or until lightly browned. Cool on pans for 2 minutes before removing to wire racks."],
+    "allergies": "*",
+    "original_link": "https://www.tasteofhome.com/recipes/chewy-oatmeal-cookies/"
+    }],
+
+  "butter_cookies":[
+    {
+    "id": 5,
+    "recipe_name": "Butter Cookies",
+    "finished_product_image_link": "https://www.cookingclassy.com/wp-content/uploads/2018/11/butter-cookies-21-768x1152.jpg",
+    "rating": "*",
+    "comments": "*",
+    "time_table": "45 Minutes",
+    "needed_equipment": ["bowl", "electric stand mixer"],
+    "ingredients": ["Unsalted butter","Granulated sugar","Salt","Egg yolks","All-purpose flour","Milk","Vanilla extract"],
+    "instructions": ["Preheat oven to 350 degrees.","In the bowl of an electric stand mixer fitted with the paddle attachment cream together butter, sugar and salt until combined.","Mix in egg yolks and vanilla.","Add flour and mix until crumbly then add in milk and continue to mix while adding in a little more milk if needed for a pipe-able consistency.","Transfer to a 16-inch piping bag fitted with a large open star tip (I like the Ateco 826 or 827 here).","Pipe dough into rounds onto two ungreased baking sheets.","Bake one sheet at a time in preheated oven until golden brown on bottom, about 12 to 15 minutes.","Let cool on baking sheet 5 minutes then transfer to a wire rack to cool completely. Store in an airtight container."],
+    "allergies": "*",
+    "original_link": "https://www.cookingclassy.com/butter-cookies/"
+    }],
+
+  "peanut_butter_cookies":[
+    {
+    "id": 6,
+    "recipe_name": "Peanut Butter Cookies",
+    "finished_product_image_link": "https://www.gimmesomeoven.com/wp-content/uploads/2014/12/Peanut-Butter-Cookies-Recipe-1.jpg",
+    "rating": "*",
+    "comments": "*",
+    "time_table": "1 hour 25 minutes",
+    "needed_equipment": ["2 bowls", "egg beater", "baking pan", "baking sheets"],
+    "ingredients": ["1 cup unsalted butter", "1 cup crunchy peanut butter", "1 cup white sugar", "1 cup packed brown sugar", "2 eggs, 2 1/2 cups all-purpose flour", "1 teaspoon baking powder", "1/2 teaspoon salt", "1 1/2 teaspoons baking soda."],
+    "instructions": ["Cream butter, peanut butter, and sugars together in a bowl; beat in eggs.","In a separate bowl, sift flour, baking powder, baking soda, and salt; stir into butter mixture. Put dough in refrigerator for 1 hour.","Roll dough into 1 inch balls and put on baking sheets. Flatten each ball with a fork, making a crisscross pattern. Bake in a preheated 375 degrees F oven for about 10 minutes or until cookies begin to brown."],
+    "allergies": "*",
+    "original_link": "https://www.allrecipes.com/recipe/10275/classic-peanut-butter-cookies/"
+  }],
+
+  "gingerbread_cookies":[
+    {
+      "id": 7,
+      "recipe_name": "Gingerbread Cookies",
+      "finished_product_image_link": "https://www.simplyrecipes.com/wp-content/uploads/2009/12/gingerbread-man-cookie-vertical-a-1800-600x878.jpg",
+      "rating": "*",
+      "comments": "*",
+      "time_table": "2 hours 23 minutes",
+      "needed_equipment": ["small bowl", "whisk", "large bowl", "baking sheets", "rolling pin"],
+      "ingredients": ["3 cups all-purpose flour","1 1?2 teaspoons baking powder","1 3/4 teaspoon baking soda","1/4 teaspoon salt","1 tablespoon ground ginger",",1 3?4 teaspoons ground cinnamon","1/4 teaspoon ground cloves","6 tablespoons unsalted butter","3/4 cup dark brown sugar","1 large egg","1/2 cup molasses","2 teaspoons vanilla","1 teaspoon finely grated lemon zest (optional)"],
+      "instructions": ["In a small bowl, whisk together flour, baking powder, baking soda, salt, ginger, cinnamon, and cloves until well blended.","In a large bowl (KitchenAid's great for this) beat butter, brown sugar, and egg on medium speed until well blended.","Add molasses, vanilla, and lemon zest and continue to mix until well blended.","Gradually stir in dry ingredients until blended and smooth.","Divide dough in half and wrap each half in plastic and let stand at room temperature for at least 2 hours or up to 8 hours.","Preheat oven to 375 deg. Prepare baking sheets by lining with parchment paper.","(Dough can be stored in the refrigerator for up to 4 days, but in this case it should be refrigerated. Return to room temp before using.) Preheat oven to 375 degrees.","Grease or line cookie sheets with parchment paper.","Place 1 portion of the dough on a lightly floured surface.","Sprinkle flour over dough and rolling pin.","Roll dough to a scant 1/4-inch thick.","Use additional flour to avoid sticking.","Cut out cookies with desired cutter-- the ginger bread man is our favorite of course.",",Space cookies 1 1/2-inches apart.","Bake 1 sheet at a time for 7-10 minutes (the lower time will give you softer cookies-- very good!).","Remove cookie sheet from oven and allow the cookies to stand until the cookies are firm enough to move to a wire rack.","After cookies are cool you may decorate them any way you like.","I usually brush them with a powdered sugar glaze when I am in a hurry, but they look wonderful decorated with Royal icing."],
+      "allergies": "*",
+      "original_link": "https://www.food.com/recipe/the-most-wonderful-gingerbread-cookies-80156"
+    }],
+
+  "thumbprint_cookies":[
+    {
+      "id": 8,
+      "recipe_name": "Thumbprint Cookies",
+      "finished_product_image_link": "https://www.cookingclassy.com/wp-content/uploads/2015/08/pbj-thumbprint-cookies-srgb..jpg",
+      "rating": "*",
+      "comments": "*",
+      "time_table": "40 Minutes",
+      "needed_equipment": ["baking sheets","2 large bowls","spoon"],
+      "ingredients": ["1 3/4 c. all-purpose flour","1/2 tsp. baking powder","1/2 tsp. kosher salt","3/4 c. (1 1/2 sticks) butter","1/2 c. granulated sugar","1 large egg","1 tsp. pure vanilla extract","1/3 c. assorted jams"],
+      "instructions": ["Preheat oven to 350 degrees and line two baking sheets with parchment. In a large bowl, whisk together flour, baking powder, and salt.","In another bowl, beat butter and sugar until pale and fluffy, about 3 minutes. Beat in egg and vanilla, then add dry ingredients in two batches until incorporated.","Using a small cookie scoop, scoop 1� balls onto prepared baking sheets. Press a thumbprint into center of each ball, 1/2� deep. Fill with a small spoonful of jam.","Bake until edges of cookies are golden, 13 to 14 minutes. Cool on baking sheets before serving."],
+      "allergies": "*",
+      "original_link": "https://www.delish.com/cooking/recipe-ideas/recipes/a56358/easy-jam-thumbprint-cookies/"
+    }],
+  "macaron_cookies": [
+    {
+      "id": 9,
+      "recipe_name": "Macaron Cookies",
+      "finished_product_image_link": "https://cdn.sallysbakingaddiction.com/wp-content/uploads/2015/08/homemade-french-macarons-2.jpg",
+      "rating": "*",
+      "comments": "*",
+      "time_table": "2 Hours 30 Minutes",
+      "needed_equipment": ["2 baking sheets","parchment paper","large bowl","rubber spatula","mixer","pastry bag"],
+      "ingredients": ["Cooking spray","1 3/4 c. (226 g.) powdered sugar","1 c. (98 g.) super-fine almond","3 large egg whites","1/4 tsp. cream of tartar","Kosher salt","1/4 c. (40 g.) superfine sugar",",8 drops pink food coloring","1 stick of unsalted butter","3/4 c. powdered sugar","1 tsp. pure vanilla extract"],
+      "instructions": ["Preheat oven to 300 degrees. Lightly grease two baking sheets with cooking spray and line with parchment.","Make macarons: Set a fine-mesh sieve over a large bowl and sift 1 � cup powdered sugar with almond flour. Use a rubber spatula to help push larger pieces through. Keep pressing until less than 2 tablespoons of solids remain. Discard solids.","In a mixer, beat egg whites, cream of tartar, and a pinch of salt until frothy. Increase speed to medium-high and slowly add superfine sugar. Continue to beat on medium-high until egg whites are stiff and glossy, about 2 to 3 minutes.","Beat in food coloring until combined, about 30 seconds more. Fold dry ingredients into beaten egg whites with a spatula until it flows like thick lava, about 2 minutes.","Fit a pastry bag with a a 1/4-inch round tip and transfer batter into bag. Dab some remaining batter in bowl onto the corners of two baking sheets and line sheets with parchment. Pipe batter into 1-inch circles, spacing each circle about 1 inch apart. Tap baking sheet against counter a few times to release any air bubbles. Let piped batter to sit out for 45 minutes before baking.","Bake one sheet at a time, rotating halfway through, until risen and just set, 13 to 14.","Let cool 10 to 15 minutes before gently peeling parchment away to transfer to a rack to cool completely.","Using a mixer, beat butter with remaining � cup powdered sugar and vanilla until fluffy and smooth. Pipe or spread filling on flat sides of half of cookies; top with remaining half.","Wrap in plastic and refrigerate until ready to serve."],
+      "allergies": "*",
+      "original_link": "https://www.delish.com/cooking/recipe-ideas/a25324082/how-to-make-macarons/"
+    }]
+
 }
