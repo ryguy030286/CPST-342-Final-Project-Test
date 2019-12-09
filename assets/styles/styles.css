@@ -25,12 +25,12 @@
 
 .title_container{
     background: orange;
-    width: 10%;
+    /*width: 10%;*/
 }
 
 .image_container{
     background: #8f5400;
-    width: 90%;
+    /*width: 90%;*/
 }
 
 .time_table_container{
@@ -60,7 +60,14 @@
 
 
 /* ID's of elements that will be replaced during page navigation */
+#cookie_image {
+    max-height: 750px;
+    max-width: 500px;
+}
 
+#title_text {
+
+}
 /* End of ID elements */
 
 

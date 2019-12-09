@@ -32,4 +32,9 @@ fetch("./cookie_data.json")
         document.getElementById("ingredients_text").innerHTML = data[page_name][0].ingredients;
         document.getElementById("equipment_text").innerHTML = data[page_name][0].needed_equipment;
         document.getElementById("time_table_text").innerHTML = data[page_name][0].time_table;
+
+        let image = document.getElementById("cookie_image");
+        image.src = data[page_name][0].finished_product_image_link;
+        image.appendChild(image.src);
+
     });

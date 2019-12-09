@@ -9,20 +9,34 @@
 <body>
 <div class="container-fluid main_container" style="background-color: blue">
     <div class="row top_row">
-        <div class="col title_container" >
+        <div class="col title_container col-2">
             <div class="index_button_container"><button type="button" onClick="index_page()">Back to index</button></div>
-            <p id="title_text">Cookie name goes here</p>
         </div>
-        <div class="col image_container"> <p id="image_text"> Cookie image goes here</p></div>
+        <div class="col title_banner col-10"><img src="https://cdn.shopify.com/s/files/1/1992/6955/files/COOKIES-BANNER-TRANSPARENT.jpg?v=1496093846"></div>
+
     </div>
 
     <div class="row mid_row">
-        <div class="col">
-            <div class="row time_table_container"> <p id="time_table_text"> <strong>Time table goes here</strong> <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis incidunt ipsa nisi pariatur placeat quas rem sapiente veritatis! Accusantium amet dolores eius officia quidem sunt voluptatem. Alias molestias recusandae sunt.</p></div>
-            <div class="row ingredients_container"> <p id="ingredients_text"> <strong>Ingredients go here</strong> <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, consectetur consequuntur debitis dignissimos facilis fuga inventore laboriosam maiores minima, molestias nihil officiis perspiciatis, quia rem sapiente totam ullam unde vitae.  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dolorem dolores illo impedit ipsum iste iusto, laboriosam libero maiores, porro repellat repudiandae. Aliquam laborum minus porro praesentium quibusdam rem, sed? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium libero tempore voluptatum. Animi cupiditate delectus, dicta distinctio, dolore eum incidunt inventore itaque laborum maiores nisi nobis possimus, quasi rem voluptas?</p></div>
-            <div class="row equipment_container"> <p id="equipment_text"> <strong>Equipment list goes here</strong> <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur explicabo repellendus reprehenderit suscipit. Aut consequuntur dolore ducimus eius labore maxime nisi porro voluptatem! Aspernatur beatae dolores facilis quos ullam voluptate!  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias beatae dolorem ea harum in laudantium maxime molestias quos sapiente voluptas. Et ipsa quaerat quo ratione sed? Aspernatur dignissimos molestiae nemo.</p></div>
+        <div class="col col-2">
+            <div class="row time_table_container">
+                <h3>Cooking Time:</h3>
+                <p id="time_table_text"> <strong>Time table goes here</strong> <br></p>
+            </div>
+            <div class="row ingredients_container">
+                <h3>Ingredients List:</h3>
+                <p id="ingredients_text"> <strong>Ingredients go here</strong> <br></p>
+            </div>
+            <div class="row equipment_container">
+                <h3>Equipment Needed:</h3>
+                <p id="equipment_text"> <strong>Equipment list goes here</strong> <br></p>
+            </div>
         </div>
-        <div class="col instructions_container"> <p id="instructions_text">Instructions go here</p> </div>
+
+        <div class="col instructions_container col-5">
+            <h1><p id="title_text">Cookie name goes here</p></h1>
+            <p id="instructions_text">Instructions go here</p> </div>
+
+        <div class="col image_container col-5"><img id="cookie_image" alt="Image has been removed!"></div>
     </div>
 
     <div class="row bottom_row footer_container">
