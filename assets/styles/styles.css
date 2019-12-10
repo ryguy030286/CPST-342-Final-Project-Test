@@ -23,9 +23,9 @@ html {
 
 /* Classes of elements that will be replaced during page navigation */
 .main_container{
-    position: fixed;
+    position: absolute;
     width: 100%;
-    height: 100%;
+    height: 120vh;
     left: 0;
     top: 0;
     background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
@@ -40,12 +40,13 @@ html {
     height: 80%;
 }
 
-.bottom_row{
-    height: 10%;
-}
+/*.bottom_row{*/
+/*    height: 10%;*/
+/*    */
+/*}*/
 
 .title_container{
-    background: orange;
+    /*background: orange;*/
 }
 
 .image_container{
@@ -58,27 +59,27 @@ html {
     background: #ffdbe0;
     border-radius: 20px;
     align-items: center;
-    margin: 2px;
+    margin: 10px 5px 25px 5px;
     padding-top: 5px;
 }
 
 .ingredients_container{
     background: #ffdbe0;
     border-radius: 20px;
-    margin: 2px;
+    margin: 5px 5px 25px 5px;
 }
 
 .equipment_container{
     background: #ffdbe0;
     height: auto;
     border-radius: 20px;
-    margin: 2px;
+    margin: 5px 5px 25px 5px;
 }
 
 .instructions_container{
-    background: #f6c5ff;
+    background: #fed9ff;
     border-radius: 20px;
-    margin: 5px;
+    margin: 10px 5px 25px 5px;
     padding: 10px;
 }
 .left_margin_space{
@@ -89,13 +90,13 @@ html {
     padding-top:20px;
     margin: 2px
 }
-.footer_container{
-    background: #0c8f43;
-    margin: 2px;
-}
+/*.footer_container{*/
+/*    background: #0c8f43;*/
+/*    margin: 2px;*/
+/*}*/
 
 .index_button_container{
-    padding-top:20px;
+    padding-top:5px;
 }
 .container {
     max-width: 960px;
@@ -126,6 +127,21 @@ html {
 .auto_size_text{
 }
 
+.bottom_row {
+    background: #a6baeb;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+
+}
+
+body {
+    background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+}
+
 [type=button] {
     background-color: steelblue;
     /*border: steelblue;*/
@@ -142,11 +158,11 @@ html {
 }
 
 #cookie_image{
-    max-height: 750px;
-    max-width: 500px;
+    max-height: 650px;
+    max-width: 400px;
     min-height: auto;
     min-width: auto;
-
+    border-radius: 20px;
     position: absolute;
     top:50%;
     left:50%;
@@ -174,7 +190,8 @@ html {
 }
 
 #cookie_image {
-    border: black solid 5px;
+    border: #ffdbe0 solid 5px;
+    border-radius: 20px;
 }
 
 #equipment_header{
@@ -186,7 +203,6 @@ html {
     padding-left: 10px;
     margin-top: 30px;
 }
-
 
 /* End of ID elements */
 
