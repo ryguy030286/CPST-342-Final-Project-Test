@@ -96,6 +96,12 @@ html {
     user-select: none;
 }
 
+[type=button] {
+    background-color: midnightblue;
+    border: none;
+    color: white;
+}
+
 
 /* ID's of elements that will be replaced during page navigation */
 #cookie_image {
