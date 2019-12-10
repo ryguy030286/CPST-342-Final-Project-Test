@@ -1,4 +1,3 @@
-
 // Loads template page and passes button value.
 function cookie_page(button_value) {
     //Replaces index page with template page.
@@ -25,7 +24,6 @@ fetch("./cookie_data.json")
     .then(function(data) {
         document.getElementById("title_text").innerHTML = data[page_name][0].recipe_name;
         document.getElementById("time_table_text").innerHTML = data[page_name][0].time_table;
-
 
         //Code from: https://gomakethings.com/two-more-ways-to-create-html-from-an-array-of-data-with-vanilla-js/
         let instruction_list = document.getElementById("instructions_list");

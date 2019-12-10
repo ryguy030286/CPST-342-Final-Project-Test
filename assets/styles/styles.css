@@ -12,15 +12,6 @@ html {
     }
 }
 
-/* Custom Font */
-
-@font-face
-{
-    font-family: custom_font_1;
-    src: local(oreos);
-}
-
-
 /* Classes of elements that will be replaced during page navigation */
 .main_container{
     position: absolute;
@@ -32,6 +23,24 @@ html {
     z-index: 10;
 }
 
+.card_title{
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 38px;
+    color: white;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+/*Gradients created at https://cssgradient.io/*/
+.card_body_background {
+    background: rgb(58, 45, 253);
+    background: linear-gradient(0deg, rgba(58, 45, 253, 0.04245448179271705) 0%, rgba(58, 45, 253, 0.38139005602240894) 100%);
+}
+.card_header_background{
+    background: rgba(58,45,253,0.38139005602240894) 100%;
+}
+
+
+
+
 .top_row{
     height: 10%;
 }
@@ -40,10 +49,8 @@ html {
     height: 80%;
 }
 
-/*.bottom_row{*/
-/*    height: 10%;*/
-/*    */
-/*}*/
+.bottom_row{
+}
 
 .title_container{
     /*background: orange;*/
@@ -90,10 +97,6 @@ html {
     padding-top:20px;
     margin: 2px
 }
-/*.footer_container{*/
-/*    background: #0c8f43;*/
-/*    margin: 2px;*/
-/*}*/
 
 .index_button_container{
     padding-top:5px;
@@ -151,10 +154,12 @@ body {
 }
 
 
-/* ID's of elements that will be replaced during page navigation */
+/************** Element IDs *******************/
 
 #index_title_text{
-    font-family: "custom_font_1", cursive;
+    font-family: 'Pacifico', cursive;
+    font-size: 70px;
+    text-shadow: 1px 0 0 #1f45fc, 0 -1px 0 #1f45fc, 0 1px 0 #1f45fc, -1px 0 0 #1f45fc;
 }
 
 #cookie_image{
@@ -171,16 +176,20 @@ body {
 
 #title_text{
     text-align: center;
+    font-family: 'Lobster', cursive;
     padding-top: 25px;
     paddint-bottom: 15px;
+    font-size: 50px;
+    color: darkblue;
 }
 
 #instructions_list{
-    font-size: 16px;
+    font-size: 18px;
 }
 
 #time_table_header{
     margin: 0 auto;
+    color: #ff1b4f;
 }
 
 
@@ -197,14 +206,13 @@ body {
 #equipment_header{
     padding-left: 10px;
     margin-top: 30px;
+    font-size: 28px;
+    margin-bottom: 25px;
 }
 
 #ingredients_header{
     padding-left: 10px;
     margin-top: 30px;
+    font-size: 34px;
+    margin-bottom: 25px;
 }
-
-/* End of ID elements */
-
-
-/*===========    End of Template Page CSS    ================*/

@@ -2,57 +2,60 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Cookie Website</title>
+    <title>Third Element Cookies - Recipe</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/styles/styles.css">
+
+    <!-- Imported Custom Font -->
+    <link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive|Lobster|Pacifico&display=swap" rel="stylesheet">
 </head>
 <body>
-<div class="container-fluid main_container">
-    <div class="row top_row">
-        <header class="navbar navbar-expand-md navbar-light fixed-top">
-            <div class="col-1">
-                <div class="index_button_container"><button type="button" onClick="index_page()">Back to Home</button></div>
+    <div class="container-fluid main_container">
+        <div class="row top_row">
+            <header class="navbar navbar-expand-md navbar-light fixed-top">
+                <div class="col-1">
+                    <div class="index_button_container"><button type="button" onClick="index_page()">Back to Home</button></div>
+                </div>
+                <div class="col-11">
+                </div>
+            </header>
+        </div>
+
+
+        <div class="row mid_row">
+        <div class="row left_margin_space col-1">
+            <!--This is white space on the left side of the page-->
+        </div>
+        <div class="col col-2">
+            <div class="row time_table_container">
+                <h3 id="time_table_header">Cooking Time: <small><p id="time_table_text"> <strong>Time table goes here</strong></p></small></h3>
             </div>
-            <div class="col-11">
+            <div class="row ingredients_container">
+                <h3 id="ingredients_header">Ingredients List:</h3>
+                <p id="ingredients_text"> <strong><ul id="ingredients_list"></ul></strong> <br></p>
             </div>
-        </header>
-    </div>
+            <div class="row equipment_container">
+                <h3 id="equipment_header">Equipment Needed:</h3>
+                <p id="equipment_text"> <strong><ul id="equipment_list"></ul></strong> <br></p>
+            </div>
+        </div>
+        <div class="col instructions_container col-5">
+            <h1><p id="title_text">Cookie name goes here</p></h1>
+            <p><ol id="instructions_list"></ol></p>
+        </div>
+        <div class="col image_container col-3">
+            <img id="cookie_image" alt="Image has been removed!">
+        </div>
+        <div class="row right_margin_space col-1">
+            <!--This is white space on the right side of the page-->
+        </div>
 
 
-    <div class="row mid_row">
-    <div class="row left_margin_space col-1">
-        <!--This is white space on the left side of the page-->
-    </div>
-    <div class="col col-2">
-        <div class="row time_table_container">
-            <h3 id="time_table_header">Cooking Time: <small><p id="time_table_text"> <strong>Time table goes here</strong></p></small></h3>
+        <div class="row bottom_row">
+            <div class="col col-12">
+                &copy 2019 - Third Element Cookies
+            </div>
         </div>
-        <div class="row ingredients_container">
-            <h3 id="ingredients_header">Ingredients List:</h3>
-            <p id="ingredients_text"> <strong><ul id="ingredients_list"></ul></strong> <br></p>
-        </div>
-        <div class="row equipment_container">
-            <h3 id="equipment_header">Equipment Needed:</h3>
-            <p id="equipment_text"> <strong><ul id="equipment_list"></ul></strong> <br></p>
-        </div>
-    </div>
-    <div class="col instructions_container col-5">
-        <h1><p id="title_text">Cookie name goes here</p></h1>
-        <p><ol id="instructions_list"></ol></p>
-    </div>
-    <div class="col image_container col-3">
-        <img id="cookie_image" alt="Image has been removed!">
-    </div>
-    <div class="row right_margin_space col-1">
-        <!--This is white space on the right side of the page-->
-    </div>
-
-
-    <div class="row bottom_row">
-        <div class="col col-12">
-            &copy 2019 - Third Element Cookies
-        </div>
-    </div>
 
 
 
