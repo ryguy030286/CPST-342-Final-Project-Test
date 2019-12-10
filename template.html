@@ -7,39 +7,70 @@
     <link rel="stylesheet" href="assets/styles/styles.css">
 </head>
 <body>
-<div class="container-fluid main_container" style="background-color: blue">
+<div class="container-fluid main_container">
     <div class="row top_row">
-        <div class="col title_container col-2">
-            <div class="index_button_container"><button type="button" onClick="index_page()">Back to index</button></div>
-        </div>
-        <div class="col title_banner col-10"><img src="https://cdn.shopify.com/s/files/1/1992/6955/files/COOKIES-BANNER-TRANSPARENT.jpg?v=1496093846"></div>
-
+        <header class="navbar navbar-expand-md navbar-light fixed-top">
+            <div class="col-1"></div>
+            <div class="col-11">
+                <a class="navbar-brand" href="index.html">STARR Incorporated</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu</a>
+                               <div class="dropdown-menu" aria-labelledby="dropdown01">
+                                   <a class="dropdown-item" href="about.html">About</a>
+                                   <a class="dropdown-item" href="index.html">Home</a>
+                               </div>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
     </div>
+
+<!--    <div class="row top_row">-->
+<!--        <div class="col title_container col-1">-->
+<!--            <div class="index_button_container"><button type="button" onClick="index_page()">Back to index</button></div>-->
+<!--        </div>-->
+<!--        <div class="col title_banner col-11"></div>-->
+
+<!--    </div>-->
 
     <div class="row mid_row">
-        <div class="col col-2">
-            <div class="row time_table_container">
-                <h3 id="time_table_header">Cooking Time: <small><p id="time_table_text"> <strong>Time table goes here</strong></p></small></h3>
-
-            </div>
-            <div class="row ingredients_container">
-                <h3 id="ingredients_header">Ingredients List:</h3>
-                <p id="ingredients_text"> <strong><ul id="ingredients_list"></ul></strong> <br></p>
-            </div>
-            <div class="row equipment_container">
-                <h3 id="equipment_header">Equipment Needed:</h3>
-                <p id="equipment_text"> <strong><ul id="equipment_list"></ul></strong> <br></p>
-            </div>
+    <div class="row left_margin_space col-1">
+        <!--This is white space on the left side of the page-->
+    </div>
+    <div class="col col-2">
+        <div class="row time_table_container">
+            <h3 id="time_table_header">Cooking Time: <small><p id="time_table_text"> <strong>Time table goes here</strong></p></small></h3>
         </div>
-
-        <div class="col instructions_container col-5">
-            <h1><p id="title_text">Cookie name goes here</p></h1>
-            <p><ol id="instructions_list"></ol></p>
+        <div class="row ingredients_container">
+            <h3 id="ingredients_header">Ingredients List:</h3>
+            <p id="ingredients_text"> <strong><ul id="ingredients_list"></ul></strong> <br></p>
         </div>
-        <div class="col image_container col-5">
-            <img id="cookie_image" alt="Image has been removed!">
+        <div class="row equipment_container">
+            <h3 id="equipment_header">Equipment Needed:</h3>
+            <p id="equipment_text"> <strong><ul id="equipment_list"></ul></strong> <br></p>
         </div>
     </div>
+    <div class="col instructions_container col-5">
+        <h1><p id="title_text">Cookie name goes here</p></h1>
+        <p><ol id="instructions_list"></ol></p>
+    </div>
+    <div class="col image_container col-3">
+        <img id="cookie_image" alt="Image has been removed!">
+    </div>
+    <div class="row right_margin_space col-1">
+        <!--This is white space on the right side of the page-->
+    </div>
+
+</div>
 
     <div class="row bottom_row footer_container">
         <div class="col col-12"><p>Third Element Cookies &copy 2019</p></div>
@@ -47,6 +78,38 @@
 
 </div>
 
+
+
+<footer class="navbar navbar-expand-md navbar-dark bg-light justify-content-center fixed-bottom">
+    <div class="row">
+        <div class="col-4 col-md">
+            <ul class="list-unstyled text-small">
+                <li>&copy 2019 - Third Element Cookies</li>
+            </ul>
+
+        </div>
+        <div class="col-4 col-md">
+            <ul class="list-unstyled text-small">
+                <li><a class="text-muted" href="index.html">Home</a></li>
+            </ul>
+        </div>
+        <div class="col-4 col-md">
+            <ul class="list-unstyled text-small">
+                <li><a class="text-muted" href="about.html">About</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="assets/js/app.js"></script>
 </body>
 </html>

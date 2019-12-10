@@ -28,12 +28,12 @@ html {
     height: 100%;
     left: 0;
     top: 0;
-    background: rgb(0,0,255);
+    background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
     z-index: 10;
 }
 
 .top_row{
-    height: 15%;
+    height: 10%;
 }
 
 .mid_row{
@@ -41,43 +41,58 @@ html {
 }
 
 .bottom_row{
-    height: 5%;
+    height: 10%;
 }
 
 .title_container{
     background: orange;
-
 }
 
 .image_container{
     background: #8f5400;
     position: relative;
-
+    margin: 2px;
+    padding: 5px;
 }
 
 .time_table_container{
-    background: #8f100d;
-    margin: 0 auto;
-
+    background: #ffdbe0;
+    border-radius: 20px;
+    align-items: center;
+    margin: 2px;
+    padding-top: 5px;
 }
 
 .ingredients_container{
-    background: #88148f;
-    margin: 0 auto;
+    background: #ffdbe0;
+    border-radius: 20px;
+    margin: 2px;
 }
 
 .equipment_container{
-    background: #8f8b67;
+    background: #ffdbe0;
     height: auto;
-    margin: 0 auto;
+    border-radius: 20px;
+    margin: 2px;
 }
 
 .instructions_container{
-    background: aqua;
+    background: #e990ff;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 10px;
 }
-
+.left_margin_space{
+    padding-top:20px;
+    margin: 2px;
+}
+.right_margin_space{
+    padding-top:20px;
+    margin: 2px
+}
 .footer_container{
     background: #0c8f43;
+    margin: 2px;
 }
 
 .index_button_container{
@@ -114,8 +129,10 @@ html {
 
 [type=button] {
     background-color: steelblue;
-    border: steelblue;
+    /*border: steelblue;*/
     color: white;
+    border-radius: 10px;
+    border-style: outset;
 }
 
 
@@ -128,6 +145,8 @@ html {
 #cookie_image{
     max-height: 750px;
     max-width: 500px;
+    min-height: auto;
+    min-width: auto;
 
     position: absolute;
     top:50%;
