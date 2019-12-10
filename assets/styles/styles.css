@@ -112,6 +112,12 @@ html {
 .auto_size_text{
 }
 
+[type=button] {
+    background-color: steelblue;
+    border: steelblue;
+    color: white;
+}
+
 
 /* ID's of elements that will be replaced during page navigation */
 
