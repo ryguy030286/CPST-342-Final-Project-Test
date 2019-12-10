@@ -54,3 +54,5 @@ fetch("./cookie_data.json")
         //image.appendChild(image.src);
 
     });
+
+textFit(document.querySelector("h3"));

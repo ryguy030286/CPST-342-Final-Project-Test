@@ -12,6 +12,14 @@ html {
     }
 }
 
+/* Custom Font */
+
+@font-face
+{
+    font-family: custom_font_1;
+    src: local(oreos);
+}
+
 
 /* Classes of elements that will be replaced during page navigation */
 .main_container{
@@ -38,25 +46,30 @@ html {
 
 .title_container{
     background: orange;
-    /*width: 10%;*/
+
 }
 
 .image_container{
     background: #8f5400;
-    /*width: 90%;*/
+    position: relative;
+
 }
 
 .time_table_container{
     background: #8f100d;
+    margin: 0 auto;
+
 }
 
 .ingredients_container{
     background: #88148f;
+    margin: 0 auto;
 }
 
 .equipment_container{
     background: #8f8b67;
     height: auto;
+    margin: 0 auto;
 }
 
 .instructions_container{
@@ -96,16 +109,60 @@ html {
     user-select: none;
 }
 
+.auto_size_text{
+}
+
 
 /* ID's of elements that will be replaced during page navigation */
-#cookie_image {
+
+#index_title_text{
+    font-family: "custom_font_1", cursive;
+}
+
+#cookie_image{
     max-height: 750px;
     max-width: 500px;
+
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
 }
 
-#title_text {
+#title_text{
+    text-align: center;
+    padding-top: 25px;
+    paddint-bottom: 15px;
+}
+
+#instructions_list{
+    font-size: 16px;
+}
+
+#time_table_header{
+    margin: 0 auto;
+}
+
+
+#time_table_text {
+    text-align: center;
 
 }
+
+#cookie_image {
+    border: black solid 5px;
+}
+
+#equipment_header{
+    padding-left: 10px;
+    margin-top: 30px;
+}
+
+#ingredients_header{
+    padding-left: 10px;
+    margin-top: 30px;
+}
+
 
 /* End of ID elements */
 
