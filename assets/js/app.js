@@ -47,8 +47,16 @@ fetch("./cookie_data.json")
 
         //Inserts finished product image into template page.
         document.getElementById("cookie_image").src = data[page_name][0].finished_product_image_link;
+
+        //Changes title name on browser tab
+        document.getElementById("tag_name").innerHTML = data[page_name][0].recipe_name;
     });
 
+
 textFit(document.querySelector("h3"));
+
+
+
+// document.getElementById('tag_name').setAttribute('title', data[page_name][0].recipe_name);
 
 //Around 29 lines of code is used.
